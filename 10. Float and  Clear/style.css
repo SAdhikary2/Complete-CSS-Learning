@@ -1,0 +1,42 @@
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* overflow: visible;   it is the by default */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    
+}
+
+body{
+    margin: 80px 80px;
+}
+
+.container>p{
+    padding-left: 10%;
+    padding-right: 10px;
+}
+
+.box{
+    width: 60%;
+    height: 80%;
+    border: 2px solid red;
+    overflow: auto;
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.box>img{
+    /* float:left; */
+    float: right;
+    /* float: inherit; */
+    margin: 10px;
+    
+}
+
+.para1{
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+}

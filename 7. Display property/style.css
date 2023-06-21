@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: red;
+    display: inline;
+    width: 300px;
+     /* width not work for inline element only for block and inline-block */
+}
+
+span{
+    color: yellowgreen;
+    display: block;
+    font-size:smaller;
+}
+
+img{
+  
+    width: 100px;
+    height: 100px;
+    /* display: none; not show the image */
+}
+
+nav{
+    background-color: blue;
+}
+
+ul{
+    list-style: none;
+    text-align: end;
+    color: white;
+    padding: 10px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+li:hover{
+    color:red;
+    cursor: pointer;
+}

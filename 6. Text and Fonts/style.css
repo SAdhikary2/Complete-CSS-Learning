@@ -1,0 +1,30 @@
+/* through importing in css page we can download the new fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
+
+h1{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: #b1c8dc;
+    text-decoration-style: wavy;
+    text-shadow: 5px 1px 1px tomato;
+    /* text-shadow: 5px 1px 1px tomato, 5px 5px 1px blue; */
+    text-transform: uppercase;
+    text-indent: 10px;
+    line-height: 2rem;
+    letter-spacing:1rem ;
+    word-spacing:1rem ;
+    
+}
+
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* applying the external fonts */
+
+    font-family: 'Rubik Iso', cursive;
+    font-size:0.5rem ;
+    font-weight: 700;
+    font-style: italic;
+}

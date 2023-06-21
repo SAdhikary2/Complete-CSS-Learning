@@ -1,0 +1,44 @@
+/* main{
+    border: 2px solid red;
+     width: 50%; 
+    width: 50%;
+    height: 100%;
+} */
+
+body{
+    background-color: aquamarine;
+}
+
+
+/* 
+difference in use with the percentage(%) and vh,vw */
+/* 
+ h3{
+    border: 2px dashed black;
+    width: 100vw;
+     width: 100%; 
+    height:100vh;
+} */
+
+
+/* difference between the em and rem unit */
+
+body{
+    font-size: 2em;
+}
+
+header{
+    font-size: 2em;
+}
+h1{
+    font-size: 2rem;
+}
+
+section{
+    font-size: 2em;
+}
+h3{
+    font-size: 3rem;
+}
+
+/* rem works as the actual value but em works multiplying with the parent value */

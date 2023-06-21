@@ -1,0 +1,47 @@
+.container{
+    height: 600px;
+    width:  300px;
+    background-color:gainsboro;
+    margin: 40px 200px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+
+.red{
+    background-color: red;
+    /* relative works according to the parent */
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.green{
+    background-color: green;
+    /* absolute works according to the relative root */
+    position: absolute;
+   bottom: 0;
+   right: 0;
+   /* whose z index is high that is more towards the user */
+   z-index: 2;
+}
+.blue{
+    background-color: blue;
+    /* it will fixed the position according to the root*/
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.spacer{
+    height: 300vh;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 10px;
+
+}
