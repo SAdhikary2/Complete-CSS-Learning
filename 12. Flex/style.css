@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /* flex direction property */
+
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    flex-direction:row;
+
+    /* flex wrap property */
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex flow property */
+    /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+    /* flex-flow: row wrap; */
+
+    /* justify content property */
+
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+    /* The align-items property */
+
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items:stretch; */
+    /* align-items: baseline; */
+
+    /* The align-content property */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: stretch; */
+    align-content: center;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    justify-content: space-evenly;
+
+    /* gap property */
+
+    /* gap: 10px; */
+    /* row-gap:10px ; */
+    /* column-gap: 10px; */
+    
+
+}
+
+.box{
+    width: 80px;
+    border: 2px solid green;
+}
+
+#box-1{
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* by default shrink value is 1 */
+    /* flex-basis: 200px; */
+
+    /* The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties. */
+    /* flex: 0 0 200px; */
+    /* align-self: center; */
+    /* align-self: stretch; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+
+
+}
+
+#box-3{
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+}
