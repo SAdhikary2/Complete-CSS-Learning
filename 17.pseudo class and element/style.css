@@ -1,0 +1,85 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+/* unvisited link */
+a:link{
+    color: red;
+}
+
+/* visited link */
+a:visited{
+    color: purple;
+}
+
+/* mouse over link */
+a:hover{
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+
+/* taking action after clicking */
+a:active{
+    color: yellow;
+    background-color: green;
+    padding: 10px;
+}
+
+/* 
+ul li:first-child{
+    background-color: violet;
+}
+
+ul li:last-child{
+    background-color: red;
+} */
+
+/* ul li:nth-child(2n){
+    background-color: gray;
+} */
+
+/* ul li:nth-child(2n+1){
+    background-color: gray;
+} */
+
+.test:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+h2::first-letter{
+    font-size: 3rem;
+}
+
+p::first-line{
+    background-color: red;
+}
+
+/* to change the seletion hover */
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+
+/* this content are temporary content */
+h2::before{
+    content: 'this is the before element';
+}
+
+h2::after{
+    content: '*';
+    color: red;
+}
+
+
+/* demo class which use in google form to highlight its importance */
+.required::after{
+    content: '*';
+    color: red;
+}
+
+

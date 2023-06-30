@@ -1,0 +1,52 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 80px auto;
+    transition-duration: 1s;
+
+    /* transition property means in which thing we are going to apply transition */
+    transition-property:border-radius;
+    /* transition-delay: 2s; */
+    /* transition-timing-function:cubic-bezier(0.53, 2.66, 0, 0.03) ; */
+/* transition-timing-function: ease; */
+/* transition-timing-function: ease-in; */
+/* transition-timing-function: ease-in-out; */
+/* transition-timing-function: ease-out; */
+/* transition-timing-function: step-end; */
+
+
+
+
+
+}
+
+.box:hover
+{
+    /* transform: skewX(40deg); */
+    border-radius: 50%;
+    background-color: gold;
+    transform: scale(1.2);
+    
+    
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.item{
+    font-size: 2rem;
+    padding: 8px 16px;
+    transition: 0.3s ease-out;
+}
+
+.item:hover{
+   cursor: pointer;
+   background-color: black;
+   color:white;
+   transform: translateY(-20px);
+}

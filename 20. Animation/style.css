@@ -1,0 +1,106 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    margin: 80px auto;
+    border: 5px solid white;
+    /* animation: orbit 4s linear infinite; */
+    border-radius: 50%;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 100px;
+    /* animation-name: circles; */
+    /* animation-duration: 5s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 2s; */
+    /* animation-direction:normal;
+    animation-direction:reverse;
+    animation-direction:alternate;
+    animation-direction:alternate-reverse; */
+    /* animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out; */
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: both; */
+    /* animation: circles 5s linear 2s infinite alternate; */
+     /* animation:orbit 1s linear  infinite  normal ; */
+
+}
+
+/* loader animation */
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    gap: 10px;
+    background-color: white;
+    animation: load 0.8s ease infinite alternate both;
+}
+
+.dot:nth-child(2){
+    animation-delay:  0.1s;
+}
+.dot:nth-child(3){
+    animation-delay: 0.2s;
+}
+.dot:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+@keyframes load {
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+
+@keyframes orbit {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes  circles {
+    0%,100%{
+   transform: translate(0,0)
+    }
+    25%{
+   transform: translate(300px,0);
+    }
+    50%{
+    transform: translate(300px,300px);
+    }
+    75%{
+    transform: translate(0,300px);
+    }
+}
